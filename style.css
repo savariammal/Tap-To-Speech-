@@ -45,4 +45,28 @@ button:hover
     background: black;
     color:white;
 }
-
+@media only screen and (max-width: 600px)
+ {
+    h1 {
+        font-size: 40px;
+        margin: 0;
+        color: rgb(228, 118, 243);
+        text-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+        font-family: sans-serif;
+    }
+    textarea {
+        width: 90%;
+        height: 180px;
+        font-size: 16px;
+    }
+    button {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+}
+button:hover
+{
+    background: gray;
+    color:white;
+}
+}
